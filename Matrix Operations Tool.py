@@ -1,7 +1,3 @@
-# Matrix Operations Tool using Python and NumPy
-# This script provides an interactive command-line interface to perform various 
-# matrix operations (Addition, Subtraction, Multiplication, Transpose, Determinant).
-
 import numpy as np
 
 def get_matrix_input(prompt):
@@ -168,3 +164,4 @@ if __name__ == "__main__":
         print("Please install it using: pip install numpy")
     except Exception as e:
         print(f"\nAn unexpected fatal error occurred: {e}")
+
